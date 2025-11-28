@@ -1,4 +1,5 @@
 import streamlit as st
-import D47calib
+import pyjokes
 
-st.title(f'Foo Bar (using D47calib v.{D47calib.__version__})')
+st.title('Here is a joke from pyjokes')
+st.text(pyjokes.get_joke())
